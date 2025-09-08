@@ -6,27 +6,17 @@
 To write a C++ program to create a class RectangleBox and calculate the volume of the rectangle box using a static member variable to count the number of objects created.
 
 ## Algorithm:
-Start the program.
+Start the program and define a class RectangleBox with private data members: length, breadth, and height.
 
-Define a class RectangleBox with private data members: length, breadth, height.
+Declare a static data member count to keep track of the number of objects created.
 
-Declare a static data member count inside the class to keep track of the number of objects created.
+Define a constructor to initialize dimensions and increment the count variable.
 
-Define a constructor to initialize the values of length, breadth, and height, and increment the count variable.
+Define a member function Volume() to calculate and return the volume (length * breadth * height).
 
-Define a member function Volume() to calculate and return the volume of the box (length * breadth * height).
+In main(), read input values, create objects of RectangleBox, and display their volumes.
 
-In the main() function:
-
-Read input values for dimensions.
-
-Create objects of class RectangleBox with the given dimensions.
-
-Display the calculated volume for each object.
-
-Display the total number of objects created using the static variable.
-
-Stop the program.
+Finally, display the total number of objects created using the static variable, then stop the program.
 
 ## Program:
 ```
@@ -66,29 +56,17 @@ The program was successfully executed. The volume of the rectangle box was calcu
 ## Aim:
 To write a C++ program that demonstrates operator overloading by overloading the increment operator (++) so that, when invoked, it performs a custom operation (in this case, summing two numbers and displaying the result).
 ## Algorithm:
-Start the program.
+Start the program and create a class sum with data members a, b, and res.
 
-Create a class sum with data members a, b, and res.
+Overload the increment operator by defining operator++() inside the class.
 
-Define the operator function operator++() inside the class.
+Read two integer values and perform their addition.
 
-Read two integer values.
+Display the result inside the overloaded operator function.
 
-Perform addition of the two numbers.
+In main(), create an object, read values, and invoke the overloaded operator using ++obj;.
 
-Display the result.
-
-In the main() function:
-
-Create an object of the class.
-
-Read values for a and b.
-
-Invoke the overloaded increment operator ++obj;.
-
-Display the computed result.
-
-Stop the program.
+Display the computed result and stop the program.
 ## Program:
 ```
 #include <iostream>
@@ -125,33 +103,17 @@ The program was successfully executed. The increment operator (++) was overloade
 To write a C++ program to create a class Rectangle and calculate the volume of the rectangle using a member function.
 Additionally, to demonstrate the use of a static data member to count the total number of objects created from the class.
 ## Algorithm:
-Start the program.
+Start the program and define a class Rectangle with private data members: length, breadth, and height.
 
-Define a class Rectangle with:
+Declare a static integer variable count inside the class to track the number of objects created.
 
-Private data members: length, breadth, height.
+Define a constructor to initialize dimensions and increment the count variable.
 
-A static integer variable count to keep track of object creation.
+Define a member function Volume() to calculate and return length * breadth * height.
 
-A constructor that initializes the dimensions (length, breadth, height) and increments the count.
+In main(), read input values, create Rectangle objects, and display their volumes.
 
-A member function Volume() that calculates and returns the product of length * breadth * height.
-
-Define the static variable count outside the class and initialize it to 0.
-
-In the main() function:
-
-Accept input values for length, breadth, and height from the user.
-
-Create an object of class Rectangle and call the constructor.
-
-Display the calculated volume.
-
-Repeat for another object.
-
-Finally, display the total number of objects created using the static variable.
-
-End the program.
+Finally, display the total number of objects created using the static variable and stop the program.
 ## Program:
 ```
 #include <iostream>
@@ -213,29 +175,17 @@ It calculated the volume of each rectangle object and displayed the total number
 ## Aim:
 To write a C++ program to read the customer details using a constructor and display them using a member function.
 ## Algorithm:
-Start the program.
+Start the program and define a class Details with data members: name, place, and no (pin code).
 
-Define a class Details with data members:
-
-name (string)
-
-place (string)
-
-no (integer → pin code).
-
-Define a constructor that accepts values for name, place, and pin code, and initializes the data members.
+Define a constructor to initialize the data members with user-provided values.
 
 Define a member function Display() to print the customer details.
 
-In the main() function:
+In main(), read customer details (name, place, pin code) from the user.
 
-Read customer details from the user.
+Create an object of Details and pass the values to the constructor.
 
-Create an object of Details class and pass the values to the constructor.
-
-Call the Display() function to show the details.
-
-Stop the program.
+Call Display() to show the details, then stop the program.
 ## Program:
 ```
 #include <iostream>
