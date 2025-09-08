@@ -6,10 +6,12 @@ To write a C++ program to create a class RectangleBox and calculate the volume o
 
 
 ## Algorithm:
-```
-Step 1: Start the program.
 
-Step 2: Create a class RectangleBox with:
+## Step 1:
+Start the program.
+
+## Step 2:
+Create a class RectangleBox with:
 
 Private data members: length, breadth, height.
 
@@ -19,9 +21,11 @@ A parameterized constructor to initialize dimensions and increment count.
 
 A member function Volume() to calculate and return the volume.
 
-Step 3: Define the static member variable outside the class.
+## Step 3:
+Define the static member variable outside the class.
 
-Step 4: In the main() function:
+## Step 4:
+In the main() function:
 
 Read the dimensions from the user.
 
@@ -32,10 +36,6 @@ Display the volume of each object.
 Display the total number of objects created using the static member variable.
 
 Step 5: Stop the program.
-```
-
-
-
 
 ## Program:
 
@@ -200,6 +200,8 @@ int main()
 <img width="1178" height="400" alt="image" src="https://github.com/user-attachments/assets/671812ce-2cb5-49f4-81a9-f255efdd9bf6" />
 <img width="1173" height="489" alt="image" src="https://github.com/user-attachments/assets/f3e65513-b780-44ed-bd7f-09539ad82721" />
 <img width="1188" height="467" alt="image" src="https://github.com/user-attachments/assets/4e73082f-d437-41e7-93cf-01f8877dbf5c" />
+<img width="1168" height="292" alt="image" src="https://github.com/user-attachments/assets/2199cf85-7035-46d2-9b3f-cfcfc15a8055" />
+
 
 
 
