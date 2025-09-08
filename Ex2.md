@@ -265,6 +265,9 @@ int main()
 ```
 ## Output:
 <img width="1168" height="292" alt="image" src="https://github.com/user-attachments/assets/2199cf85-7035-46d2-9b3f-cfcfc15a8055" />
+
+
+
 ## Result:
 The program was successfully executed.
 It demonstrated dynamic memory allocation for a long integer variable using the new operator and displayed the entered value.
