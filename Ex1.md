@@ -2,7 +2,8 @@
 ## Ex.Name:Write A CPP Program to allocate memory dynamically for a double array. (Note: p_array = new type [size]; )
 ## Aim:
 To write A CPP Program to allocate memory dynamically for a double array.(Note: p_array = new type [size]; )
-
+## Name : Ramya S
+## Register Number : 212222040130
 ## Algorithm:
 1.Start the program.
 
